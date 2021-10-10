@@ -1,0 +1,213 @@
+body
+{
+	background-image: url(mdr.jpg);
+	background-position: top left, left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1
+{
+	text-align: center;
+	font-family: text-align;
+	color: gold;
+
+}
+
+
+
+nav > ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+nav li
+{
+	list-style-type: none;
+}
+nav > ul > li
+{
+	float: left;
+	position: relative;
+}
+.submenu
+{
+	display: none;
+}
+nav input[type=checkbox]
+{
+	display: none;
+}
+.menu-mobile
+{
+	display: none;
+}
+nav
+{
+	width: 100%;
+	background-color: #424558;
+}
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a
+{
+	padding: 20px 30px;
+	color: white;
+}
+
+
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+.submenu li
+{
+	border-bottom: 1px solid gold;
+}
+.submenu li a
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: gold;
+	width: 270px;
+}
+.menu-métier:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+.menu-formulaire:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+.menu-iframe:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+.menu-css:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+.menu-menu:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+.menu-cv:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
+nav > ul > li:hover a
+{
+	padding: 15px 30px 20px 30px;
+}
+.menu-métier .submenu
+{
+	background-color: blue;
+}
+.menu-formulaire .submenu
+{
+	background-color: blue;
+}
+.menu-iframe .submenu
+{
+	background-color: blue;
+}
+.menu-css .submenu
+{
+	background-color: blue;
+}
+.menu-menu .submenu
+{
+	background-color: blue;
+}
+.menu-cv .submenu
+{
+	background-color: blue;
+}
+
+.submenu li:hover
+{
+	color: gold;
+	font-weight: bold;
+}
+.menu-métier .submenu li:hover
+{
+	background-color: blue;
+}
+.menu-iframe .submenu li:hover
+{
+	background-color: blue;
+}
+.menu-css .submenu li:hover
+{
+	background-color: blue;
+}
+.menu-menu .submenu li:hover
+{
+	background-color: blue;
+}
+.menu-cv .submenu li:hover
+{
+	background-color: blue;
+}
+nav input[type=checkbox]:checked ~ ul
+{
+	display: block;
+}
+
+@media screen and (max-width : 680px)
+{
+	.menu-mobile
+	{
+		display: block;
+		color: #fff;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0;
+	}
+	nav ul
+	{
+		display: none;
+	}
+
+	nav ul
+	{
+		display: none;
+	}
+	nav ul li, nav ul li a 
+	{
+		width: 100%;
+		text-align: center;
+		padding-left:0px ;
+	}
+	nav ul li a, nav ul li:hover a
+	{
+		padding: 10px 0px 10px 0px;
+	}
+	nav li:hover .submenu
+	{
+		display: block;
+		position: static;
+	}
+}
