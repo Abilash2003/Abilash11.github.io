@@ -117,6 +117,11 @@ nav li:hover .submenu
 	border-top: 5px solid blue;
 	background-color: blue;
 }
+.menu-javascript:hover
+{
+	border-top: 5px solid blue;
+	background-color: blue;
+}
 nav > ul > li:hover a
 {
 	padding: 15px 30px 20px 30px;
@@ -142,6 +147,10 @@ nav > ul > li:hover a
 	background-color: blue;
 }
 .menu-cv .submenu
+{
+	background-color: blue;
+}
+.menu-javascript .submenu
 {
 	background-color: blue;
 }
