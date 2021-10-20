@@ -1,0 +1,240 @@
+
+h1
+{
+	color: gold;
+}
+
+
+h4
+{
+	color: gold;
+}
+
+.color
+{
+color: gold;
+width: 100%;
+text-align: center;
+padding: 10px;
+}
+
+.fond
+
+{
+background: url(capture.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.p1
+{
+	background-color: black;
+}
+.page
+{
+width: 95%;
+height:850px;
+border: 3px solid black;
+font-size: 16px;
+font-family: verdana;
+padding: 10px;
+box-shadow: 2px 4px 3px black;
+
+}
+
+.entete
+{
+width: 97.5%;
+border: 3px solid gold;
+border-radius: 50px;
+height: 150px;
+margin-right: 50%;
+padding: 5px;
+text-align: center;
+}
+
+.form
+{
+border: 3px;
+height: 510px;
+padding: 10px;
+}
+
+.left
+{
+float: left;
+border: 3px solid black;
+width: 390px;
+height: 500px;
+}
+
+.right
+{
+float: right;
+width: 70%;
+border: 1px solid;
+height: 500px;
+
+}
+
+nav > ul
+{
+margin: -10px;
+padding: -10px;
+}
+
+nav li
+{
+list-style-type: none;
+margin: auto;
+text-align: center;
+}
+
+.submenu
+{
+display: none;
+}
+
+nav > ul >li 
+{
+	float: left;
+	position: relative;
+}
+
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a 
+{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: relative;
+	top: 10%;
+	left: 100%;
+	padding: 0px;
+	z-index: 100000;
+	border: 5px solid black;
+	box-shadow: 2px 3px black;
+
+}
+
+li
+{
+	border: 1px solid black;
+	box-shadow: 2px 3px black;
+	margin: 10px 10px;
+	background-color: #blue;
+}
+
+.submenu li 
+{
+border-bottom: 3px solid blue;
+}
+
+.submenu li a 
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	width: 270px;
+}
+
+.menu-accueil:hover
+{
+	border-top: 5px solid gold;
+	background-color: blue;
+}
+
+.menu-CV:hover
+{
+	border-top: 5px solid gold;
+	background-color: blue;
+}
+
+.menu-projets:hover
+{
+	border-top: 5px solid gold;
+	background-color: blue;
+}
+
+.menu-veilles:hover
+{
+	border-top: 5px solid gold;
+	background-color: blue;
+}
+
+.menu-contact:hover
+{
+	border-top: 5px solid gold;
+	background-color: blue;
+}
+
+nav > ul > li:hover a 
+{
+padding: 15px 30px 20px 30px;
+}
+
+.menu-accueil .submenu
+{
+	background-color: blue;
+}
+
+.menu-CV .submenu
+{
+	background-color: blue;
+}
+
+.menu-projets .submenu
+{
+	background-color: blue;
+}
+
+.menu-veilles .submenu
+{
+	background-color: blue;
+}
+
+.menu-contact .submenu
+{
+	background-color: blue;
+}
+
+.submenu li:hover a 
+{
+	color: gold;
+	font-weight: bold;
+}
+
+
+.menu-accueil .submenu li:hover
+{
+	background-color: blue;
+}
+
+.menu-CV .submenu li:hover
+{
+	background-color: blue;
+}
+
+.menu-projets .submenu li:hover
+{
+	background-color: blue;
+}
+
+.menu-veilles .submenu li:hover
+{
+	background-color: blue;
+}
+
+.menu-contact .submenu li:hover
+{
+	background-color: blue;
+}
