@@ -1,0 +1,61 @@
+  body
+{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+    margin-left: 100px;
+	padding: 0px;
+	background-image: url(nuage.jpg);
+	background-size: cover;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    min-height: 100px;
+	background-repeat: no-repeat;
+}
+
+h2
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 70%;
+}
+
+.trait
+{
+    border: 1px solid black;
+}
+
+h4
+{
+	color: black;
+}
+
+.Q1
+{
+    color: black;
+    font-weight: bolder;
+}
+
+.Q2
+{
+    color: black;
+	
+}
+
+.rep
+{
+    color: black;
+    
+}
+
+.bouton
+{
+    margin-bottom: 50px;
+    background-color: #FFF;
+    color: black;
+    position: relative;
+    top: 15px;
+    left: 70%;
+   
+}
